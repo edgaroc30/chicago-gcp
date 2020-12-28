@@ -1,0 +1,7 @@
+Name: chicago
+
+unique_key:STRING,taxi_id:STRING,trip_start_timestamp:TIMESTAMP,trip_end_timestamp:TIMESTAMP,trip_seconds:FLOAT,trip_miles:FLOAT,pickup_census_tract:FLOAT,dropoff_census_tract:FLOAT,pickup_community_area:FLOAT,dropoff_community_area:FLOAT,fare:FLOAT,tips:FLOAT,tolls:FLOAT,extras:FLOAT,trip_total:FLOAT,payment_type:STRING,company:STRING,pickup_latitude:FLOAT,pickup_longitude:FLOAT,pickup_location:STRING,dropoff_latitude:FLOAT,dropoff_longitude:FLOAT,dropoff_location:STRING
+
+Name: chicago_manual
+
+unique_key:STRING,taxi_id:STRING,company:STRING,pickup_latitude:FLOAT,pickup_longitude:FLOAT,dropoff_latitude:FLOAT,dropoff_longitude:FLOAT,dropoff_location:STRING

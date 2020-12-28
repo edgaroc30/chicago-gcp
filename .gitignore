@@ -1,0 +1,8 @@
+GCP-keys.json
+*.vscode
+*.ipynb
+*.csv
+*.log
+*.ipynb_checkpoints
+chicago-manual.txt
+*.env
