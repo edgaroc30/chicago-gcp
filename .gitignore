@@ -1,6 +1,6 @@
 GCP-keys.json
 *.vscode
-*.ipynb
+# *.ipynb
 *.csv
 *.log
 *.ipynb_checkpoints
