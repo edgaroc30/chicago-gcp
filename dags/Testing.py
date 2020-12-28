@@ -78,13 +78,4 @@ templated_command = """
 #     dag=dag,
 # )
 
-t4 = MsSqlOperator(
-    task_id='sql-op',
-    mssql_conn_id='mssql_default',
-    sql='use DataMart; SELECT 1',
-    autocommit=True,
-    retries=1,
-    dag=dag,
-    ) 
-
-t1 >> [t2, t4]#t3]#, #t4]
+t1 >> t2
